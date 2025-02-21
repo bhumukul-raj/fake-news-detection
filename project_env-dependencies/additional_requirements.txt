@@ -1,0 +1,27 @@
+# Add your additional packages here
+# Example packages (uncomment or add your own):
+# tensorflow>=2.0.0
+# pytorch>=2.0.0
+# transformers>=4.0.0
+# opencv-python>=4.0.0
+# plotly>=5.0.0
+# streamlit>=1.0.0 
+
+# Data manipulation and analysis
+pandas==2.0.3  # Pandas - Panel Data Analysis
+numpy==1.24.3  # NumPy - Numerical Python
+
+# Machine Learning
+scikit-learn==1.6.1 # Scikit-learn - Scientific Kit for Machine Learning
+
+# Image Processing
+Pillow==10.0.0  # PIL - Python Imaging Library
+
+# Text Processing and Analysis
+nltk==3.8.1  # NLTK - Natural Language Toolkit
+regex==2023.8.8  # Regular Expression Operations
+wordcloud==1.9.4 # Word Cloud Generator
+
+# Visualization
+matplotlib==3.7.2  # Mathematical Plotting Library
+seaborn==0.12.2  # Statistical Data Visualization
