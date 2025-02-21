@@ -1,3 +1,9 @@
+# For addition ignore....
+.dsi/
+.vscode/
+dsi-config/
+data-set 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
