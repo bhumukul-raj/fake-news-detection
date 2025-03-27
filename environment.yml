@@ -1,0 +1,52 @@
+name: fake-news-detection-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  # Core data science
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  
+  # Web apps & dashboards
+  - streamlit
+  
+  # Development tools
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  
+  # Statistics
+  - statsmodels
+  
+  # Code quality
+  - black
+  - flake8
+  
+  # Image Processing
+  - Pillow
+
+  # Text Processing and Analysis
+  - nltk
+  - regex
+  - wordcloud
+
+  # Utilities
+  - tqdm
+  - pytest
+  - pyyaml
+  
+  # Add pip packages
+  - pip
+  - pip:
+    - pandas-profiling
+    - dataprep  # lightweight EDA tool
+

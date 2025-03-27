@@ -1,62 +1,78 @@
-# Python
+# Data files
+# Uncomment these if you want to ignore your data (recommended for large datasets)
+# data/raw/
+# data/processed/
+# data/external/
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 *.so
 .Python
-.env
-.venv
-env/
-venv/
-.conda-env/
-.dsi-config/
-data/raw/*
-
-# Jupyter Notebook
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# Data files
-
-#*.csv
-#*.dat
-#*.out
-#*.pid
-#*.gz
-#*.xls
-#*.xlsx
-#*.parquet
-#*.feather
-#*.db
-#*.sqlite
-
-# Model files
-
-#*.h5
-#*.pkl
-#*.model
-#*.joblib
-#*.pt
-#*.pth
-#*.onnx
-#*.tflite
-#*.pb
-
-# IDE
-.vscode/
-*.swp
-*.swo
 
 # Distribution / packaging
 dist/
 build/
 *.egg-info/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
+# Model files (uncommnet if your models are large)
+# models/*.pkl
+# models/*.h5
+# models/*.joblib
+# models/*.sav
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# IPython
+.ipython/
+
+# Environment / IDE
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
 .coverage
+htmlcov/
+.pytest_cache/
 .coverage.*
-.cache
+nosetests.xml
 coverage.xml
 *.cover
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Local configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
