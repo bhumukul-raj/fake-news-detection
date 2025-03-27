@@ -1,8 +1,8 @@
 # Data files
 # Uncomment these if you want to ignore your data (recommended for large datasets)
-# data/raw/
-# data/processed/
-# data/external/
+data/raw/
+data/processed/
+data/external/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
